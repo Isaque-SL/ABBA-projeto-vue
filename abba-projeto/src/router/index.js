@@ -12,6 +12,41 @@ const routers = [
     component: function () {
       return import('../views/InicioView.vue')
     }
+  },
+  {
+    path: '/cultos',
+    name: 'cultos',
+    component: function () {
+      return import('../views/CultosView.vue')
+    }
+  },
+  {
+    path: '/eventos',
+    name: 'eventos',
+    component: function () {
+      return import('../views/EventosView.vue')
+    }
+  },
+  {
+    path: '/ministerios',
+    name: 'ministerios',
+    component: function () {
+      return import('../views/MinisteriosView.vue')
+    }
+  },
+  {
+    path: '/historia',
+    name: 'historia',
+    component: function () {
+      return import('../views/HistoriaView.vue')
+    }
+  },
+  {
+    path: '/contatos',
+    name: 'contatos',
+    component: function () {
+      return import('../views/ContatosView.vue')
+    }
   }
 ]
 export default router
