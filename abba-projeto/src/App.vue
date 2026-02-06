@@ -14,4 +14,5 @@
   import Header from './components/Header.vue'
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
