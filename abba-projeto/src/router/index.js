@@ -1,11 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [],
-})
 
-const routers = [
+const routes = [
   {
     path: '/inicio',
     name: 'inicio',
@@ -49,4 +45,10 @@ const routers = [
     }
   }
 ]
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes
+})
+
 export default router

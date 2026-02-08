@@ -1,18 +1,16 @@
-<script setup></script>
+<script setup>
+  import Header from './components/Header.vue'
+  import Footer from './components/Footer.vue'
+</script>
 
 <template>
   <Header />
-  <h1>You yay it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
-
+  <router-view/>
+  <Footer />
 </template>
 
-<script setup>
-  import Header from './components/Header.vue'
-</script>
-
-<style scoped>
+<style>
+#app{
+  font-family: Arial, Helvetica, sans-serif;
+}
 </style>

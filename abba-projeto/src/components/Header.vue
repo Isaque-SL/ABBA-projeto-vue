@@ -1,13 +1,13 @@
 <template>
     <header>
-        <img src="../assets/logo_abba.png" alt="Logo do Ministério ABBA" width="180px">
+        <h1><router-link to="/inicio"><img src="../assets/logo_abba.png" alt="Logo do Ministério ABBA" width="180px"></router-link></h1>
         <nav>
             <ol>
-                <li><p><router-link to="../views/CultosView.vue">Cultos</router-link></p></li>
-                <li><p><router-link to="../views/EventosView.vue">Eventos</router-link></p></li>
-                <li><p><router-link to="../views/MinisteriosView.vue">Ministérios</router-link></p></li>
-                <li><p><router-link to="../views/HistoriaView.vue">História</router-link></p></li>
-                <li><p><router-link to="../views/ContatoView.vue">Contato</router-link></p></li>
+                <li><p><router-link to="/cultos">Cultos</router-link></p></li>
+                <li><p><router-link to="eventos">Eventos</router-link></p></li>
+                <li><p><router-link to="ministerios">Ministérios</router-link></p></li>
+                <li><p><router-link to="historia">História</router-link></p></li>
+                <li><p><router-link to="contatos">Contatos</router-link></p></li>
             </ol>
         </nav>
     </header>
@@ -20,7 +20,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-family: Arial, Helvetica, sans-serif;
+        background-color: antiquewhite;
+        padding: 4rem;
+        box-sizing: border-box;
         nav{
             width: 50%;
             ol{
