@@ -20,7 +20,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: antiquewhite;
+        background-color: rgb(254, 249, 243);
         padding: 4rem;
         box-sizing: border-box;
         nav{
