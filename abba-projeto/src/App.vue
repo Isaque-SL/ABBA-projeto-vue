@@ -13,4 +13,7 @@
 #app{
   font-family: Arial, Helvetica, sans-serif;
 }
+::selection, ::-moz-selection {
+  background-color: #f0f;
+}
 </style>
