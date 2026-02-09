@@ -21,13 +21,20 @@
   
   <div id="seja-membro">
     <p>Gostaria de participar?</p>
-    <button>SEJA MEMBRO</button>
-    <ListaMembros />
+    <button @click="sejamembro()">SEJA MEMBRO</button>
   </div>
 </template>
 
 <script setup>
   import ListaMembros from '../components/ListaMembros.vue';
+</script>
+
+<script>
+  function sejamembro(){
+    const divisoria = document.getElementById("seja-membro")
+    const tag = d
+    divisoria.appendChild()
+  }
 </script>
 
 <style scoped>
