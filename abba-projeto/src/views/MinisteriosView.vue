@@ -21,7 +21,7 @@
   
   <div id="seja-membro">
     <p>Gostaria de participar?</p>
-    <button @click="sejamembro()">SEJA MEMBRO</button>
+    <ListaMembros />
   </div>
 </template>
 

@@ -29,7 +29,7 @@
             padding-right: 1em;
         }
         #abba{
-            padding-right: 1.26em;
+            padding-right: 4.26em;
             padding-left: 1em;
             left: 77%;
             top: 34.5%;

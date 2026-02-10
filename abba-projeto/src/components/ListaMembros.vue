@@ -1,10 +1,15 @@
 <template>
     <fieldset>
         <form action="">
-            <p>Escreva seu nome para a solicitaçãode membresia!</p>
+            <p>Escreva seu nome para a solicitação de membresia!</p>
             <input v-model="membro" type="text">
             <button @click="salvarMembro">Registrar</button>
         </form>
+        <ol>
+          <li v-for="membro in membros" :key="membro.nome">
+              {{ membro.nome }}
+          </li>
+        </ol>
     </fieldset>
 </template>
 
