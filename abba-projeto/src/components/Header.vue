@@ -3,7 +3,7 @@
         <h1><router-link to="/inicio"><img src="../assets/logo_abba.png" alt="Logo do Ministério ABBA" width="180px"></router-link></h1>
         <nav>
             <ol>
-                <li><p><router-link to="/cultos">Cultos</router-link></p></li>
+                <li><router-link to="/cultos">Cultos</router-link></li>
                 <li><p><router-link to="eventos">Eventos</router-link></p></li>
                 <li><p><router-link to="ministerios">Ministérios</router-link></p></li>
                 <li><p><router-link to="historia">História</router-link></p></li>

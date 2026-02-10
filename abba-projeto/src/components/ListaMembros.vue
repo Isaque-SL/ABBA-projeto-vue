@@ -38,7 +38,7 @@ const salvarMembro = () => {
   }
   listamembros.push(novoMembro)
   localStorage.setItem('lista_membros', JSON.stringify(listamembros))
-  textoNoticia.value = ''
-  carregarNoticias()
+  textomembro.value = ''
+  carregarMembros()
 }
 </script>

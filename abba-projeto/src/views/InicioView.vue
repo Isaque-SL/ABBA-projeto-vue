@@ -7,7 +7,7 @@
         <div id="abba">
             <p>Bem-vindo ao <span>ABBA</span></p>
         </div>
-        <img src="../assets/fundo-igreja-projeto.webp" alt="" width="100%" height="300px">
+        <img src="../assets/fundo-igreja-projeto.webp" alt="" width="100%" height="600px">
     </figure>
 </template>
 
